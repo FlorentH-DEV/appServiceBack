@@ -2,6 +2,6 @@ import { Chat } from 'src/model/modelChat';
 
 export class dalChat {
   findAll(){
-    return [new Chat("felix", 2), new Chat("plop", 20), new Chat("blop", 5), new Chat("wolverin", 200)]
+    return [new Chat({name: "felix", age: 2}), new Chat({name: "plop", age: 20}), new Chat({name: "blop", age: 5}), new Chat({name: "wolverin", age: 200})]
   }
 }

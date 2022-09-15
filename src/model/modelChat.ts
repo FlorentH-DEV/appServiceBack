@@ -1,10 +1,12 @@
+import { identity } from "src/interface/app.interface"
+
 export class Chat {
     nom: string
     age: number
 
-    constructor(name: string, age: number){
-        this.nom = name
-        this.age = age
+    constructor(identity : identity){
+        this.nom = identity.name
+        this.age = identity.age
     }
 
     jeSuis(){

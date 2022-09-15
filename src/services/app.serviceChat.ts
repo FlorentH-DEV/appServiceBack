@@ -7,7 +7,7 @@ export class AppServiceChat {
   dalChat = new dalChat()
 
   getHello(): string {
-    let chat = new Chat("jumper", 2)
+    let chat = new Chat({name: "jumper", age: 2})
     return chat.jeSuis();
   }
 
