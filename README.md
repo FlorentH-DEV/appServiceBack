@@ -36,7 +36,8 @@ $ npm install
 
 ```bash
 # development
-$ npm run start
+$ npm run dev
+il lance le mode debug et le mode watcher
 
 # watch mode
 $ npm run start:dev
