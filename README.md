@@ -26,6 +26,32 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+Le projet est constitué de 5 parties :
+   1. Le dossier controller
+   2. Le dossier dal
+   3. Le dossier model
+   4. Le dossier service
+   5. Le dossier interface
+   
+   ### Dossier controller
+   Vous pourrez trouver tous les controllers présents dans l'applicatif.
+   Chaque fois que vous créez un controller, vous devez le renseigner dans le fichier app.module.ts.
+   Vous devez ajouter le controller créer à la liste des controllers.
+   Les controllers sont le points d'entrée du programme. 
+   
+   ### Dossier service
+   Une fois la requète arrivée au controller, si nous avons besoin de logique (calcul, requètes sur la BDD etc ...), vouos devez la renseigner dans le fichier service associé.
+  Pour la création d'un nouveau fichier de service, vous devez le renseigner dans le fichier app.module.ts et le rajouter au tableu de service déjà présent.
+  
+  ### le dossier dal
+  Le dossier dal (Data acces layer) contient tous les accès à la base de donnée, quand vous devez accéder à la BDD, vous devez le faire d'ici
+  
+  ### Le dossier model
+  Il contient tous les model présents dans l'applicatif. 
+  
+  ### le dossier interface
+  Il contient toutes les interfaces de l'applicatif.
+
 ## Installation
 
 ```bash
