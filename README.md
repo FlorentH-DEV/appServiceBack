@@ -26,6 +26,9 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+Ce projet utilisera le DBFirst.
+Les classes contenues dans le dossier modèle servirons à générer la base de donnée
+
 Le projet est constitué de 5 parties :
    1. Le dossier controller
    2. Le dossier dal
@@ -47,7 +50,8 @@ Le projet est constitué de 5 parties :
   Le dossier dal (Data acces layer) contient tous les accès à la base de donnée, quand vous devez accéder à la BDD, vous devez le faire d'ici
   
   ### Le dossier model
-  Il contient tous les model présents dans l'applicatif. 
+  Il contient les modèles de l'applicatif, qui peuvent être utilisé en dehors de la base de donnée.
+  Ce dossier contient aussi un dossier typeorm. C'est ici, que nous allons retrouver toutes les modèles de la BDD
   
   ### le dossier interface
   Il contient toutes les interfaces de l'applicatif.
