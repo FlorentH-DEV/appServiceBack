@@ -29,6 +29,8 @@
 Ce projet utilisera le DBFirst.
 Les classes contenues dans le dossier modèle servirons à générer la base de donnée
 
+## Quelques explication
+
 Le projet est constitué de 5 parties :
    1. Le dossier controller
    2. Le dossier dal
